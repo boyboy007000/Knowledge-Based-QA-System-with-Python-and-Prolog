@@ -1,71 +1,55 @@
-name('jahangirnagar university').
-breif_description('Jahangirnagar University is a public university in Bangladesh, based in Savar Upazila, Dhaka. It is one of the top and only fully residential universities in Bangladesh. There are 34 departments, 4 institutes under six faculties.').
-location('jahangirnagar university stands on the west side of the Asian Highway, popularly known as the Dhaka-Aricha Road, and is 32 kilometres away from the capital').
-established('jahangirnagar university', '1970').
-first_vice_chancellor('Mafizuddin Ahmed (PhD in chemistry, Penn State)').
-current_vice_chancellor('Professor Doctor Farzan Islam').
-history('The university was established in 1970 by the Jahangirnagar Muslim University Ordinance of the government of Pakistan. Its first vice-chancellor, Mafizuddin Ahmed (PhD in chemistry, Penn State) took up office on 24 September 1970. The first group of students, a total of 150, were enrolled in four departments: Economics, Geography, Mathematics, and Statistics. Its formal inauguration was delayed until 12 January 1971, when the university was launched by Rear Admiral S. M. Ahsan, the chancellor.').
-area('697.56 acres which is 2.8 square kilometres').
+name('The University of Information Technology').
+breif_description('The University of Information Technology is a public university in VietNam, based in VNU-HCM zone, HCM city.').
+location('Quarter 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City.').
+established('The University of Information Technology', '2006').
+first_vice_chancellor('Professor Dr.Hoang Van Kiem ').
+current_vice_chancellor('Assoc. Prof. Dr. Nguyen Hoang Tu Anh').
+history("VNUHCM - University of Information Technology (UIT) is the public university that was founded under the Decision No.134/2006/QD-TTg dated on June 8, 2006 by the Vietnam’s Prime Minister. It offers prestigious programs in Information and Communication Technology (ICT). As the university member of Vietnam National University of Ho Chi Minh City (VNUHCM), UIT takes charge of training high-ranked labor force in information technology (IT), who are to contribute to the development of Vietnam's IT industry. Meanwhile, it conducts scientific researches and transfers advanced IT. Especially, its focal point is the application which aims at promoting the country’s industrialization and modernization").
+area('14 hectares which is 0.14 square kilometres').
 number_of_faculties('6').
-number_of_departments('34').
-number_of_institutes('4').
-faculty('faculty of mathematical and physical science').
-faculty('faculty of biological science').
-faculty('faculty of social science').
-faculty('faculty of arts and humanities').
-faculty('faculty of business studies').
-faculty('faculty of law').
+number_of_departments('14').
+%%%number_of_institutes('4').
+faculty('faculty of Computer Science').
+faculty('faculty of Information Science and Engineering').
+faculty('faculty of Computer Engineering').
+faculty('faculty of Software Engineering').
+faculty('faculty of Information Systems').
+faculty('faculty of Computer Networks and Communications').
 
-faculties('faculty of mathematical and physical science, faculty of biological science, faculty of social science, faculty of arts and humanities, faculty of business studies, faculty of law').
+faculties('faculty of Computer Science, faculty of Information Science and Engineering, faculty of Computer Engineering, faculty of Software Engineering, faculty of Information Systems, faculty of Computer Networks and Communications').
 
-departments('department of computer science and engineering, department of mathematics, department of physics, department of environmental science, department of chemistry, department of statistics, department of geological science, department of botany, department of zoology, department of biochemistry and molecular biology, department of microbiology, department of pharmacy, department of public health and informatics, department of biotechnology and genetic engineering, department of anthropology, department of economics, department of government and politics,\n\tdepartment of geography and environment, department of public administration, department of urban and regional planning, department of archaeology, department of bangla, department of drama and dramatics, department of english, department of fine arts, department of history, department of international relations, department of journalism and media studies, department of philosophy, department of accounting and information systems, department of finance and banking, department of marketing, department of management studies, department of accounting and information systems, department of finance and banking, department of marketing, department of management studies').
+departments('department of Knowledge Engineering and Machine Learning, department of Natural Language Processing and Computational Linguistics, department of Computer Vision and Multimedia, department of Software Development, department of Virtual Environment and Game Development, department of Management Information Systems, department of Intelligent Information Systems, department of E-Commerce, department of IC Design and Hardware, department of Embedded Systems and Robots, department of Information Safety, department of Computer Network & Communication, department of Department of Data Science, department of Mobile Devices and Web Technology, department of Mathematics and Physics, Department of English').
 
-departments_under_faculty('faculty of mathematical and physical science', 'department of computer science and engineering').
-departments_under_faculty('faculty of mathematical and physical science', 'department of mathematics').
-departments_under_faculty('faculty of mathematical and physical science', 'department of physics').
-departments_under_faculty('faculty of mathematical and physical science', 'department of environmental science').
-departments_under_faculty('faculty of mathematical and physical science', 'department of chemistry').
-departments_under_faculty('faculty of mathematical and physical science', 'department of statistics').
-departments_under_faculty('faculty of mathematical and physical science', 'department of geological science').
+departments_under_faculty('faculty of Computer Science', 'department of Knowledge Engineering and Machine Learning').
+departments_under_faculty('faculty of Computer Science', 'department of Natural Language Processing and Computational Linguistics').
+departments_under_faculty('faculty of Computer Science', 'department of Computer Vision and Multimedia').
 
-departments_under_faculty('faculty of biological science', 'department of botany').
-departments_under_faculty('faculty of biological science', 'department of zoology').
-departments_under_faculty('faculty of biological science', 'department of biochemistry and molecular biology').
-departments_under_faculty('faculty of biological science', 'department of microbiology').
-departments_under_faculty('faculty of biological science', 'department of pharmacy').
-departments_under_faculty('faculty of biological science', 'department of public health and informatics').
-departments_under_faculty('faculty of biological science', 'department of biotechnology and genetic engineering').
+departments_under_faculty('faculty of Software Engineering', 'department of Software Development').
+departments_under_faculty('faculty of Software Engineering', 'department of Virtual Environment and Game Development').
 
-departments_under_faculty('faculty of social science', 'department of anthropology').
-departments_under_faculty('faculty of social science', 'department of economics').
-departments_under_faculty('faculty of social science', 'department of government and politics').
-departments_under_faculty('faculty of social science', 'department of geography and environment').
-departments_under_faculty('faculty of social science', 'department of public administration').
-departments_under_faculty('faculty of social science', 'department of urban and regional planning').
 
-departments_under_faculty('faculty of arts and humanities', 'department of archaeology').
-departments_under_faculty('faculty of arts and humanities', 'department of bangla').
-departments_under_faculty('faculty of arts and humanities', 'department of drama and dramatics').
-departments_under_faculty('faculty of arts and humanities', 'department of english').
-departments_under_faculty('faculty of arts and humanities', 'department of fine arts').
-departments_under_faculty('faculty of arts and humanities', 'department of history').
-departments_under_faculty('faculty of arts and humanities', 'department of international relations').
-departments_under_faculty('faculty of arts and humanities', 'department of journalism and media studies').
-departments_under_faculty('faculty of arts and humanities', 'department of philosophy').
+departments_under_faculty('faculty of Information Systems', 'department of Management Information Systems').
+departments_under_faculty('faculty of Information Systems', 'department of Intelligent Information Systems').
+departments_under_faculty('faculty of Information Systems', 'department of Electronic Commerce').
 
-departments_under_faculty('faculty of business studies', 'department of accounting and information systems').
-departments_under_faculty('faculty of business studies', 'department of finance and banking').
-departments_under_faculty('faculty of business studies', 'department of marketing').
-departments_under_faculty('faculty of business studies', 'department of management studies').
 
-departments_under_faculty('faculty of law', 'department of law and justice').
+departments_under_faculty('faculty of Computer Engineering', 'department of IC Design and Hardware').
+departments_under_faculty('faculty of Computer Engineering', 'department of Embedded Systems and Robots').
 
-department('department of computer science and engineering').
 
-about_department_of_computer_science_and_engineering('the department of computer science and engineering of jahangirnagar university is one of the leading cse department in bangladesh. since its inception in 1991, the Department is playing a vital role in developing skilled ict professional and researchers. the department selects very good quality national and international students in each academic year.\n\tprofessor doctor mohammad imdadul islam the present chairman of this department').
+departments_under_faculty('faculty of Computer Networks and Communications', 'department of Information Safety').
+departments_under_faculty('faculty of Computer Networks and Communications', 'department of Computer Network & Communication').
 
-chairman_of_cse('department of computer science and engineering', 'professor doctor mohammad imdadul islam').
-developers('shamim imtiaz and kamrul hasan tusher').
+departments_under_faculty('faculty of Information Science and Engineering', 'Department of Data Science').
+departments_under_faculty('faculty of Information Science and Engineering', 'Department of Mobile Devices and Web Technology').
+
+
+department('department of Knowledge Engineering and Machine Learning').
+
+about_department_of_knowledge_engineering_and_machine_learning('the department of computer science  of university of information technology is one of the leading cse department in HCM city. since its inception in 2006, the Department is playing a vital role in developing skilled ict professional and researchers. the department selects very good quality national and international students in each academic year.\n\tprofessor doctor Ngô Đức Thành the present chairman of this department').
+
+chairman_of_cse('department of computer science and engineering', 'professor doctor Ngô Đức Thành').
+developers('Nguyen Thanh An').
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 introduction(X, Y) :-
     name(X),

@@ -38,8 +38,8 @@ def say_answers(prefix, suffix, question_i, answers_i):
 
 
 print(
-    "Hi, I'm here to tell you about jahangirnagar university. \
-                what do you want to know about jahangirnagar university?"
+    "Hi, I'm here to tell you about University of Information Technology. \
+                what do you want to know about University of Information Technology?"
 )
 flg = True
 while flg:
@@ -60,41 +60,41 @@ while flg:
     elif (
         "introduction" in asked_question
         or "about ju" in asked_question
-        or "about jahangirnagar university" in asked_question
+        or "about university of information technology" in asked_question
     ):
-        # Q: what is jahangirnagar university?
+        # Q: what is university of information technology?
         question = "Introduction"
-        query = "introduction('jahangirnagar university', " + question + ")."
+        query = "introduction('university of information technology', " + question + ")."
         answers = ask_question(query)
         say_answers("", "", question, answers)
 
     elif (
-        "history of ju" in asked_question
-        or "history of jahangirnagar university" in asked_question
+        "history of uit" in asked_question
+        or "history of university of information technology" in asked_question
     ):
-        # Q: history of jahangirnagar university.
+        # Q: history of university of information technology.
         question = "History"
-        query = "history('jahangirnagar university', " + question + ")."
+        query = "history('university of information technology', " + question + ")."
         answers = ask_question(query)
         say_answers("Brief history: ", "", question, answers)
 
     elif (
-        "location of jahangirnagar university" in asked_question
+        "location of university of information technology" in asked_question
         or "situated" in asked_question
     ):
-        # Q: where is jahangirnagar university?
+        # Q: where is university of information technology?
         question = "Loction"
-        query = "location('jahangirnagar university', " + question + ")."
+        query = "location('university of information technology', " + question + ")."
         answers = ask_question(query)
         say_answers("", "", question, answers)
 
-    elif "area of jahangirnagar university" in asked_question:
-        # Q: where is jahangirnagar university?
+    elif "area of university of information technology" in asked_question:
+        # Q: where is university of information technology?
         question = "Area"
-        query = "area('jahangirnagar university', " + question + ")."
+        query = "area('university of information technology', " + question + ")."
         answers = ask_question(query)
         say_answers(
-            "total area of jahangirnagar university is about ", "", question, answers
+            "total area of university of information technology is about ", "", question, answers
         )
 
     elif (
@@ -102,12 +102,12 @@ while flg:
         or "present" in asked_question
         or "now" in asked_question
     ) and ("vice chancellor" in asked_question or "vc" in asked_question):
-        # Q: who is the current vice_chancellor of jahangirnagar university?
+        # Q: who is the current vice_chancellor of university of information technology?
         question = "Vice_chancellor"
-        query = "vice_chancellor('jahangirnagar university', " + question + ")."
+        query = "vice_chancellor('university of information technology', " + question + ")."
         answers = ask_question(query)
         say_answers(
-            "The current vice chancellor of jahangirnagar university is ",
+            "The current vice chancellor of university of information technology is ",
             "",
             question,
             answers,
@@ -118,48 +118,48 @@ while flg:
         or "how many faculties" in asked_question
         and asked_question.find("faculty of") == -1
     ):
-        # Q how many faculties are in jahangirnagr university
+        # Q how many faculties are in university of information technology
         question = "Number_of_faculties"
-        query = "number_of_faculties('jahangirnagar university', " + question + ")."
+        query = "number_of_faculties('university of information technology', " + question + ")."
         answers = ask_question(query)
         say_answers(
-            "There are ", "faculties in jahangirnagar university", question, answers
+            "There are ", "faculties in university of information technology", question, answers
         )
 
     elif (
         "number of departments" in asked_question
         or "how many departments" in asked_question
     ):
-        # Q how many departments are in jahangirnagr university
+        # Q how many departments are in university of information technology
         question = "Number_of_departments"
-        query = "number_of_departments('jahangirnagar university', " + question + ")."
+        query = "number_of_departments('university of information technology', " + question + ")."
         answers = ask_question(query)
         say_answers(
-            "There are ", "departments in jahangirnagar university", question, answers
+            "There are ", "departments in university of information technology", question, answers
         )
 
-    elif (
-        "number of institutes" in asked_question
-        or "how many institutes" in asked_question
-    ):
-        # Q how many institutes are in jahangirnagr university
-        question = "Number_of_institutes"
-        query = "number_of_institutes('jahangirnagar university', " + question + ")."
-        answers = ask_question(query)
-        say_answers(
-            "There are ", "institutes in jahangirnagar university", question, answers
-        )
+    # elif (
+    #     "number of institutes" in asked_question
+    #     or "how many institutes" in asked_question
+    # ):
+    #     # Q how many institutes are in university of information technology
+    #     question = "Number_of_institutes"
+    #     query = "number_of_institutes('university of information technology', " + question + ")."
+    #     answers = ask_question(query)
+    #     say_answers(
+    #         "There are ", "institutes in university of information technology", question, answers
+    #     )
 
     elif (
         "names of the faculties" in asked_question
         or "what are the faculties" in asked_question
     ):
-        # Q what are the faculties in jahangirnagar university
+        # Q what are the faculties in university of information technology
         question = "Facultiy"
-        query = "faculties('jahangirnagar university', " + question + ")."
+        query = "faculties('university of information technology', " + question + ")."
         answers = ask_question(query)
         say_answers(
-            "there are 6 faculties are in jahangirnagar university, they are, ",
+            "there are 6 faculties are in university of information technology, they are, ",
             "",
             question,
             answers,
@@ -171,12 +171,12 @@ while flg:
     ) and "under the faculty of" in asked_question:
         # Q what are the names departments in faculty of X?
         faculties = [
-            "faculty of mathematical and physical science",
-            "faculty of biological science",
-            "faculty of social science",
-            "faculty of arts and humanities",
-            "faculty of business studies",
-            "faculty of law",
+            "faculty of Computer Science",
+            "faculty of Information Science and Engineering",
+            "faculty of Computer Engineering",
+            "faculty of Software Engineering",
+            "faculty of Information Systems",
+            "faculty of Computer Networks and Communications",
         ]
         id = -1
         for i in range(6):
@@ -187,7 +187,7 @@ while flg:
             print(faculties[id])
             question = "Departments"
             query = (
-                "departments_under_faculty('jahangirnagar university', '"
+                "departments_under_faculty('university of information technology', '"
                 + faculties[id]
                 + "',"
                 + question
@@ -204,12 +204,12 @@ while flg:
         "names of the departments" in asked_question
         or "what are the departments" in asked_question
     ):
-        # Q what are the departments in jahangirnagar university
+        # Q what are the departments in university of information technology
         question = "Departments"
-        query = "departments('jahangirnagar university', " + question + ")."
+        query = "departments('university of information technology', " + question + ")."
         answers = ask_question(query)
         say_answers(
-            "there are 34 departments in jahangirnagar university, they are, ",
+            "there are 14 departments in university of information technology, they are, ",
             "",
             question,
             answers,
@@ -221,11 +221,11 @@ while flg:
         or "about computer science and engineering" in asked_question
         or "about department of computer science and engineering" in asked_question
     ):
-        # Q what you know about dept of CSE jahangirnagar university
+        # Q what you know about dept of CSE university of information technology
         question = "Cse"
         query = (
             "about_department_of_computer_science_and_engineering(\
-                'jahangirnagar university', "
+                'university of information technology', "
             + question
             + ")."
         )
@@ -265,7 +265,7 @@ while flg:
         answers = ask_question(query)
         print(
             ">>>>> ",
-            "This project is supervised by professor doctor mohammad shorif uddin.",
+            "This project is supervised by professor doctor Nguyen Van Nhon.",
         )
         say_answers("the developers are", "", question, answers)
 
